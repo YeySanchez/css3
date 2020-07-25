@@ -1,0 +1,96 @@
+/*
+##### SELECTORES ####
+*/
+
+/*
+SELECTOR UNIVERSAL *{}
+ESTE SELECTOR NOS PERMITE SELECCIONAR TODA LA HOJA DE HTML 
+*/
+
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+/*
+SELECTOR DE ETIQUETA 
+selecciona todos los elementos de una misma etiqeuta 
+*/
+h1{
+    background: red;
+    color: white;
+    padding:10 px ;
+}
+a {
+    font-size: 15px;
+    color: yellowgreen;
+    text-decoration: none;
+   }
+footer a{
+    color: red;
+}
+/*SELECTOR ID
+para utilizar este selector se utiliza la almuadilla (#) y el nombre de id 
+<h1 id="title">Master en csss3</h1>
+<div id="Descripcion">  
+*/
+#Descripcion,
+#title
+{
+    border: 5px solid black;
+    padding: 15px;
+}
+#title{
+   background: blue; 
+   border: 2px dashed white;
+}
+/*SELECTOR DE CLASE
+se utiliza de  la misma manera como el selector ide pero con la exepcion 
+de que a la clase se le puede aplicar a los estilos a varias etiquetas a la 
+vez y se utiliza anteponiendo un (.) antes que el selector
+<p class="parrafo">
+*/
+.parrafo{
+    font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.parrafo1, .parrafo3{
+    background-color: green;
+    color: white;
+    padding: 10px;
+}
+.parrafo3 {
+    background-color: orange;
+    color: black;
+}
+/*SELECTOR ATRIBUTO
+se utiliza para los formulaios sobre  todo para seleccionar atributos
+*/
+#usuario form {
+border: 5px solid blue;
+margin-top: 35px;
+margin-bottom:15px;
+padding: 15px;
+
+}
+#usuario form *{
+display:block ;
+}
+
+input[type="text"]{
+    margin-bottom: 15px;
+    padding: 15px;
+    width: 300px;
+    border-radius: 2%;
+}
+input[type="submit"]{
+    background: green;
+    color: white;
+    padding-left: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    border: 19x solid black;
+    cursor: pointer;
+}
+
+

@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
-    <meta charset="utf-8"/>
+  <meta charset="utf-8"/>
 <title>Master en css3</title>
+<link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
-<h1>Master en csss3</h1>
+<h1 id="title">Master en csss3</h1>
 <ul>
     <!--Crear enlaces vacios <a href="#"></a>-->
     <li><a href="#">inicio</a></li>
@@ -15,20 +17,32 @@
 </ul>
 <div id="Descripcion">  
     <h2>Descripcon del curso</h2>
-    <p>
+    <p class="parrafo parrafo1">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lectus non nulla fringilla eleifend. Nullam volutpat auctor nibh, in ultrices metus blandit vitae. Proin eu scelerisque massa. In a rutrum felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi quis cursus leo, vitae ultrices nulla. Sed felis odio, mollis sed justo non, bibendum interdum lectus. Donec scelerisque augue tortor, sit amet fringilla dolor ornare id. Nulla vel quam et turpis euismod interdum id nec nunc. Curabitur interdum orci erat, et mollis nunc ultricies sit amet. Aliquam sem magna, faucibus vel euismod eu, pretium non tellus. Maecenas bibendum sed nisl a vulputate.
     </p>   
     <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lectus non nulla fringilla eleifend. Nullam volutpat auctor nibh, in ultrices metus blandit vitae. Proin eu scelerisque massa. In a rutrum felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi quis cursus leo, vitae ultrices nulla. Sed felis odio, mollis sed justo non, bibendum interdum lectus. Donec scelerisque augue tortor, sit amet fringilla dolor ornare id. Nulla vel quam et turpis euismod interdum id nec nunc. Curabitur interdum orci erat, et mollis nunc ultricies sit amet. Aliquam sem magna, faucibus vel euismod eu, pretium non tellus. Maecenas bibendum sed nisl a vulputate.
     </p>  
-    <p>
+    <p class="parrafo parrafo3">
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas venenatis lectus non nulla fringilla eleifend. Nullam volutpat auctor nibh, in ultrices metus blandit vitae. Proin eu scelerisque massa. In a rutrum felis. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Morbi quis cursus leo, vitae ultrices nulla. Sed felis odio, mollis sed justo non, bibendum interdum lectus. Donec scelerisque augue tortor, sit amet fringilla dolor ornare id. Nulla vel quam et turpis euismod interdum id nec nunc. Curabitur interdum orci erat, et mollis nunc ultricies sit amet. Aliquam sem magna, faucibus vel euismod eu, pretium non tellus. Maecenas bibendum sed nisl a vulputate.
     </p>   
 
 </div>
+<div id="usuario">
+    <form>
+        <label>Nombre</label>
+        <input type="text" name="nombre"/>
+
+        <label>Apellidos</label>
+        <input type="text" name="apellido"/>
+        <input type="submit" value="enviar"/>
+    </form>
+</div>
+
+
 <!--Etiqueta nueva es la ideal para los posicionamientos-->
 <footer>
-    Derechos reservados Yeyson Sanchez &copy;Yeyson Sanchez
+    Derechos reservados Yeyson Sanchez <a>&copy;Yeyson Sanchez</a>
 </footer>
 </body>
 </html>
