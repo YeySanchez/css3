@@ -92,5 +92,22 @@ input[type="submit"]{
     border: 19x solid black;
     cursor: pointer;
 }
+/*selector hijo */
+#menu > li >a{
+    font-size: 15px;
+    color: red;
+    text-decoration: none;
+}
+
+/*v26 prioridad en css*/
+
+#saludo h1{
+    background: brown;
+}
+h1{
+    /* exlamacion important le da ese estilo la prioridada a esa etiqeuta 
+    sobre todo el css  */
+    background: purple !important;
+}
 
 
