@@ -1,9 +1,17 @@
+/* v29 despue de que descargamos la fuente utilizamos la etiqueta @font-face para llamar la fuente*/
+@font-face{
+    font-family:Gayathri ;
+    src: url(fonts/Gayathri-Thin.ttf);
+}
+
 h1{
     font-family: Arial, Helvetica, sans-serif;
     font-style: oblique;
+    font-family: 'Grandstander', cursive;
 }
 h3{
-    font-family:Georgia, 'Times New Roman', Times, serif;
+    /*v29 llamamos la fuente que descragmaos y visualizamos en el navegador*/
+    font-family:Gayathri;
     font-size: 25px;
     font-weight: lighter;
 }
