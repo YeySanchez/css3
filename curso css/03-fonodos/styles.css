@@ -4,6 +4,7 @@
     src: url(fonts/Gayathri-Thin.ttf);
 }
 body{
+
     /*color de fondo*/
     background-color: #cccc;
     /*patter background*/
@@ -13,6 +14,8 @@ body{
     background-attachment: fixed;
     /*posicionar imagent*/
     background-position: left bottom;
+   
+   
 }
 #caja{
     border: 5px solid black;
@@ -20,6 +23,11 @@ body{
     padding: 10px;
     background-color: #B4A0D7;
     color: white;
+    text-align:center ;
+    /*espacio entre lineas*/
+    line-height: 50px;
+    /*transformar de min a mayusculas*/
+    text-transform: uppercase;
 }
 h2{
     /*poner fondo*/
