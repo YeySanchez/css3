@@ -1,0 +1,29 @@
+@font-face{
+    /*llamar carpeta que contiene la fuente */
+    font-family:Gayathri;
+    src: url(fonts/Gayathri-Thin.ttf);
+}
+body{
+    /*color de fondo*/
+    background-color: #cccc;
+    /*patter background*/
+    background-image: url(img/imagen01.jpg);
+    /* background-repeat: no-repeat;*/
+    /*fijar imagen*/
+    background-attachment: fixed;
+    /*posicionar imagent*/
+    background-position: left bottom;
+}
+#caja{
+    border: 5px solid black;
+    /*centrar h1*/
+    padding: 10px;
+    background-color: #B4A0D7;
+    color: white;
+}
+h2{
+    /*poner fondo*/
+    font-family:Gayathri;
+    font-size: 25px;
+    font-weight: bold;
+}
